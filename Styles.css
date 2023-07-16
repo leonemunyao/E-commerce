@@ -78,3 +78,10 @@ header{
 .icons i:hover{
     transform: scale(0.9);
 }
+#menu-icon{
+    color: var(--other-color);
+    font-size: 33px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
