@@ -85,3 +85,40 @@ header{
     cursor: pointer;
     display: none;
 }
+
+section{
+    padding: 100px 11% 90px;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.home-img img{
+    width: 100%;
+    height: auto;
+}
+.home-text h4{
+    font-size: 22px;
+    color: var(--other-color);
+}
+.home-text h1{
+    line-height: 1.2;
+    margin: 25px 0 45px;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 30px;
+    background: white;
+    color: var(--other-color);
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    border-radius: 26px;
+    transition: all .45s ease;
+}
