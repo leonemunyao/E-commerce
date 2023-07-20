@@ -28,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background:grey;
     padding: 17px 11%;
     border-bottom: 1px solid #f7f9fb;
     transition: all .45s ease;
@@ -42,7 +42,7 @@ header{
 }
 .navbar a{
     font-size: var(--p-font);
-    color: var(--other-color);
+    color: black;
     display: block;
     font-weight: 400;
     padding: 10px 25px;
@@ -138,4 +138,52 @@ header.sticky{
 }
 span{
     color: var();
+}
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.row{
+    padding: 40px 30px;
+    background: grey;
+    border-radius: 20px;
+    transition: all .45s ease;
+}
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.row-img img{
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+}
+.row-text h6{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--other-color);
+    margin-bottom: 1rem;
+}
+.row-text h3{
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.row-btn{
+    display: inline-block;
+    padding: 12px 22px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 15px;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+.row-btn:hover{
+    letter-spacing: .6px;
 }
