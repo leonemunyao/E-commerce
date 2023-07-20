@@ -187,3 +187,13 @@ span{
 .row-btn:hover{
     letter-spacing: .6px;
 }
+.row1{
+    background: #fad2d2;
+}
+.row2{
+    background: #d7e0eb;
+}
+.row:hover{
+    transform: translateY(-6px);
+    cursor: pointer;
+}
