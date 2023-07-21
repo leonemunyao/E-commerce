@@ -210,6 +210,8 @@ span{
 }
 .box{
     position: relative;
+    background: #8d7b7b;
+    border-radius: 11px;
 }
 .box-img img{
     width: 100px;
@@ -235,4 +237,31 @@ span{
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
+}
+.price{
+    display: inline-block;
+    padding: 4px 16px;
+    background: transparent;
+    border: 2px solid #7a6995;
+    color: #2e1d4d;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.price:hover{
+    letter-spacing: 1.5px;
+}
+.rating{
+    font-size: 19px;
+    color: #2e1d4d;
+    margin-right: 4px;
+}
+.heart{
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    display: inline-flex;
+    top: 20px;
+    right: 20px;
 }
