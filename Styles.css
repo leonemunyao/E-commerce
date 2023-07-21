@@ -28,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:grey;
+    background: #7d95b1;
     padding: 17px 11%;
     border-bottom: 1px solid #f7f9fb;
     transition: all .45s ease;
@@ -101,6 +101,7 @@ section{
     gap: 1.5rem;
 }
 .home-img img{
+    margin-top: 2rem;
     width: 100%;
     height: auto;
 }
@@ -196,4 +197,42 @@ span{
 .row:hover{
     transform: translateY(-6px);
     cursor: pointer;
+}
+.product{
+    background: #d7e0eb;
+}
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.box{
+    position: relative;
+}
+.box-img img{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;
+    transition: all .45s ease; 
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+.box h4{
+    font-size: var(--p-font);
+    color: var(--other-color);
+    font-size: 500;
+    margin-bottom: 2rem;
+}
+.inbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
 }
